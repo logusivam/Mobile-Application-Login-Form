@@ -107,10 +107,10 @@ body
 .screen-1 .password ion-icon
 {
     color: var(--dark-gray);
-    margin-bottom: -0.2em;
+    margin-bottom: -.2em;
 }
 
-.screen-1 .password .show-hide
+.password .show-hide
 {
-    margin-right: -5em;
+    margin-right: -50px;
 }
