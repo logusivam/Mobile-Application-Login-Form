@@ -1,87 +1,116 @@
-* {
-    font-family: 'Poppins';
+ /* define the color variable */
+:root
+{
+    --p: hsl(213deg 85% 97%);
+    --s: hsl(233deg 36% 38%);
+    --background-color: hsl(218deg 50% 91%);
+    --box-shadow-color: hsl(231deg 62% 94%);
+    --white: hsl(0deg 0% 100%);
+    --black: hsl(0deg 0% 0%);
+    --dark-gray: hsl(0deg 0% 30%);
+    --footer-text: hsl(0deg 0% 37%);
 }
 
-body {
+*
+{
+    font-family: "Poppins";
+}
+
+body
+{
     user-select: none;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: hsl(218deg 50% 91%);
+    background: var(--background-color);
     height: 100vh;
 }
 
-.screen-1 {
-    background: hsl(213deg 85% 97%);
+/* login form */
+.screen-1
+{
+    background: var(--p);
     padding: 2em;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    box-shadow: 0 0 2em var(--box-shadow-color);
     gap: 2em;
 }
 
-.screen-1 .logo {
+/* logo */
+.screen-1 .logo
+{
     margin-top: -3em;
 }
 
-.screen-1 .email,
-.screen-1 .password {
-    background: hsl(0deg 0% 100%);
-    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+/* label input bg */
+.screen-1 .email
+{
+    background: var(--white);
+    box-shadow: 0 0 2em var(--box-shadow-color);
     padding: 1em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
     border-radius: 20px;
-    color: hsl(0deg 0% 30%);
+    color: var(--dark-gray);
     margin-top: -3em;
 }
 
-.screen-1 .email input,
-.screen-1 .password input {
+.screen-1 .email input
+{
     outline: none;
     border: none;
 }
 
-.screen-1 .email input::placeholder,
-.screen-1 .password input::placeholder {
-    color: hsl(0deg 0% 0%);
+.screen-1 .email input::placeholder
+{
+    color: var(--black);
     font-size: 0.9em;
 }
 
-.screen-1 .email ion-icon,
-.screen-1 .password ion-icon {
-    color: hsl(0deg 0% 30%);
+/* msil icon */
+.screen-1 .email ion-icon
+{
+    color: var(--dark-gray);
     margin-bottom: -0.2em;
 }
 
-.screen-1 .password .show-hide {
-    margin-right: -5em;
-}
-
-.screen-1 .login {
+.screen-1 .password
+{
+    background: var(--white);
+    box-shadow: 0 0 2em var(--box-shadow-color);
     padding: 1em;
-    background: hsl(233deg 36% 38%);
-    color: hsl(0 0 100);
-    border: none;
-    border-radius: 30px;
-    font-weight: 600;
-}
-
-.screen-1 .footer {
     display: flex;
-    font-size: 0.7em;
-    color: hsl(0deg 0% 37%);
-    gap: 14em;
-    padding-bottom: 10em;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: var(--dark-gray);
 }
 
-.screen-1 .footer span {
-    cursor: pointer;
+.screen-1 .password input
+{
+    outline: none;
+    border: none;
 }
 
-button {
-    cursor: pointer;
+
+.screen-1 .password input::placeholder
+{
+    color: var(--black);
+    font-size: 0.9em;
+}
+
+/* lock icon */
+.screen-1 .password ion-icon
+{
+    color: var(--dark-gray);
+    margin-bottom: -.2em;
+}
+
+.screen-1 .password .show-hide
+{
+    margin-right: -50px;
 }
