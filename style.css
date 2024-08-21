@@ -1,0 +1,116 @@
+ /* define the color variable */
+:root
+{
+    --p: hsl(213deg 85% 97%);
+    --s: hsl(233deg 36% 38%);
+    --background-color: hsl(218deg 50% 91%);
+    --box-shadow-color: hsl(231deg 62% 94%);
+    --white: hsl(0deg 0% 100%);
+    --black: hsl(0deg 0% 0%);
+    --dark-gray: hsl(0deg 0% 30%);
+    --footer-text: hsl(0deg 0% 37%);
+}
+
+*
+{
+    font-family: "Poppins";
+}
+
+body
+{
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+    height: 100vh;
+}
+
+/* login form */
+.screen-1
+{
+    background: var(--p);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em var(--box-shadow-color);
+    gap: 2em;
+}
+
+/* logo */
+.screen-1 .logo
+{
+    margin-top: -3em;
+}
+
+/* label input bg */
+.screen-1 .email
+{
+    background: var(--white);
+    box-shadow: 0 0 2em var(--box-shadow-color);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: var(--dark-gray);
+    margin-top: -3em;
+}
+
+.screen-1 .email input
+{
+    outline: none;
+    border: none;
+}
+
+.screen-1 .email input::placeholder
+{
+    color: var(--black);
+    font-size: 0.9em;
+}
+
+/* msil icon */
+.screen-1 .email ion-icon
+{
+    color: var(--dark-gray);
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password
+{
+    background: var(--white);
+    box-shadow: 0 0 2em var(--box-shadow-color);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: var(--dark-gray);
+}
+
+.screen-1 .password input
+{
+    outline: none;
+    border: none;
+}
+
+
+.screen-1 .password input::placeholder
+{
+    color: var(--black);
+    font-size: 0.9em;
+}
+
+/* lock icon */
+.screen-1 .password ion-icon
+{
+    color: var(--dark-gray);
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password .show-hide
+{
+    margin-right: -5em;
+}
