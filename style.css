@@ -115,6 +115,7 @@ body
 .screen-1 .password .hideshow
 {
     margin-right: -5em;
+    transition: transform 0.2s ease;
 }
 
 /* login button */
