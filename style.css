@@ -121,7 +121,8 @@ body
 .screen-1 .password .hideshow:hover
 {
     transform: scale(1.1);
-    color: hsl(0deg 0% 30%);
+    color: hsl(107, 100%, 50%);
+    margin-bottom: -0.2em;
 }
 
 /* login button */
