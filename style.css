@@ -68,7 +68,7 @@ body
 .screen-1 .email input::placeholder
 {
     color: var(--black);
-    font-size: 0.9em;
+    font-size: .9em;
 }
 
 /* msil icon */
@@ -113,4 +113,35 @@ body
 .screen-1 .password .s
 {
     margin-right: -5em;
+}
+
+/* login button */
+.screen-1 .login
+{
+    padding: 1em;
+    background-color: var(--s);
+    color: hsl(0 0 100);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* footer */
+.screen-1 .footer
+{
+    display: flex;
+    font-size: 0.7em;
+    color: var(--footer-text);
+    gap: 14em;
+    padding-bottom: 1em;
+}
+
+.screen-1 .footer span
+{
+    cursor: pointer;
+}
+
+button
+{
+    cursor: pointer;
 }
