@@ -28,7 +28,8 @@ Alternatively, you can directly copy the HTML, CSS, and JavaScript files into yo
 ## 🎨 Usage
 1. Open the `index.html` file in your web browser to view the login form.
 2. Customize the form fields, styling, and JavaScript functionality to fit your project requirements.
-🖼️ Example
+
+## 🖼️ Example
 When you open the `index.html` file, you'll see the login form with the password field that includes the hide/show toggle and the interactive eye icon.
 
 ## 🤝 Contributing
