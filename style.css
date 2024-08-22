@@ -116,7 +116,7 @@ body
 .screen-1 .password .hideshow
 {
     margin-right: -5em;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease; color: red;
 }
 
 .screen-1 .password .hideshow:hover
