@@ -8,13 +8,11 @@ document.querySelector('.hideshow').addEventListener('click', function()
     {
         passwordInput.type = 'text';
         eyeIcon.setAttribute('name', 'eye-outline');  /* changes to open eye */
-        eyeIcon.classList.add('eyeopen');
     }
 
     else
     {
         passwordInput.type = 'password';
         eyeIcon.setAttribute('name', 'eye-off-outline');  /* changes to close eye */
-        eyeIcon.classList.remove('eyeopen');
     }
 });
