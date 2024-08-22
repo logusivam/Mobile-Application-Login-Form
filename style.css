@@ -64,7 +64,7 @@ body
     outline: none;
     border: none;
     width: 70%;
-    height: 90%;
+    font-size: .8em;
 }
 
 .screen-1 .email input::placeholder
@@ -96,6 +96,7 @@ body
 {
     outline: none;
     border: none;
+    width: 70%;
 }
 
 
