@@ -116,12 +116,12 @@ body
 .screen-1 .password .hideshow
 {
     margin-right: -5em;
-    transition: transform 0.2s ease; color: red;
+    transition: transform 0.2s ease; color: rgb(40, 255, 2);
 }
 
 .screen-1 .password .hideshow.eyeopen
 {
-    color: green;
+    color: rgb(255, 1, 1);
 }
 .screen-1 .password .hideshow:hover
 {
