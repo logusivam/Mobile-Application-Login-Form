@@ -119,7 +119,7 @@ body
     transition: transform 0.2s ease; color: red;
 }
 
-.screen-1 .password .hideshow .eyeopen
+.screen-1 .password .hideshow.eyeopen
 {
     color: green;
 }
