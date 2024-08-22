@@ -118,6 +118,12 @@ body
     transition: transform 0.2s ease;
 }
 
+.screen-1 .password .hideshow:hover
+{
+    transform: scale(1.1);
+    color: hsl(0deg 0% 30%);
+}
+
 /* login button */
 .screen-1 .login
 {
